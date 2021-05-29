@@ -1,0 +1,47 @@
+.card {
+    width: 40%;
+    display: flex;
+    padding: 10px 10px 10px 20px;
+    border-top: 1px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+.card__header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    font-weight: 900;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user {
+    font-weight: 900;
+}
+
+.card__text {
+
+}
+
+.action__section {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    padding-left: 10px;
+
+}
+
+.action__item {
+    padding-right: 20px;
+}
