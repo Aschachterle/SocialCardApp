@@ -2,18 +2,35 @@
     background-color: pink;
     margin-top: 10px;
     width: 100%;
-    height: 100px;
+    height: auto;
     border: 1px solid rgb(238, 238, 238);
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    overflow: hidden;
 }
 
-.link__description {
+.post__img {
+    width: 100%;
+    height: 250px;
+    background-size: cover;
+    background-image: url("https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8xOTYwMDA3Ny9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY2NjEwODk4OH0.Ak820-nwF0IHPksLKc2pA3Bkby4Un2spz0PnZkzn_90/img.jpg?width=1245&quality=85&coordinates=0%2C460%2C0%2C165&height=700");
+}
+
+.link__description__box {
     background-color: white;
     width: 100%;
     height: auto;
     border-top: 1px solid rgb(238, 238, 238);
     padding: 10px;
+
+}
+
+.link__description {
+    font-weight: bold;
+}
+
+.link__description__subtext {
+
 }
